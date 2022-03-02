@@ -1,0 +1,14 @@
+---
+version: '3'
+
+services:
+  chrony:
+    image: jcostom/chrony:1.0
+    container_name: chrony
+    restart: unless-stopped
+    ports:
+      - 123:123/udp
+    environment:
+      - LOG_LEVEL=0
+      - NTP_SERVERS="time1.google.com,time3.google.com,time3.google.com,time4.google.com"
+    network_mode: bridge
