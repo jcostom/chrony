@@ -1,9 +1,9 @@
 FROM ubuntu:jammy
 
-ENV TZ=America/New_York
+ARG TZ=America/New_York
 
 RUN \
-    apt update && apt install -yq chrony \
+    apt update && DEBIAN_FRONTEND=noninteractive apt install -yq chrony \
     && apt clean
 
 RUN mkdir /app
