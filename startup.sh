@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script is (ahem, heavily) inspired by the script from cturra/ntp. 
-# Thanks Chris, I'm a fan of your work. I just prefer a Debian-based 
+# Thanks Chris, I'm a fan of your work. I just prefer a Debianish-based 
 # base image. :-)
 
 # I also prefer Google's leap-smeared approach to Cloudflare as my default...

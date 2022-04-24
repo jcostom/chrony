@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM ubuntu:jammy
 
 ENV TZ=America/New_York
 
