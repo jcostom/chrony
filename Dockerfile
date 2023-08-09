@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20230624
+FROM ubuntu:lunar-20230731
 
 ARG TZ=America/New_York
 
