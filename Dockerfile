@@ -1,4 +1,4 @@
-FROM ubuntu:mantic-20231128
+FROM ubuntu:mantic-20240122
 
 ARG TZ=America/New_York
 
