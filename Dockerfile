@@ -1,4 +1,4 @@
-FROM ubuntu:mantic-20240405
+FROM ubuntu:noble-20240423
 
 ARG TZ=America/New_York
 
